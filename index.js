@@ -8,7 +8,7 @@ for(item of buttons){
         if(buttonText == 'X'){
             buttonText = '*';
             screenValue += buttonText;
-            screenValue = screenValue;
+            screen.value = screenValue;
         }
         else if(buttonText == 'C'){
             screenValue = "";
